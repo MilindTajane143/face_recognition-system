@@ -18,7 +18,7 @@ class Developer:
         title_lbl.place(x=0,y=0,width=1530,height=45)
         
         
-        img_top=Image.open(r"C:\Users\MILIND TAJANE\Desktop\Face Recognition System\college_images\dev.jpg")
+        img_top=Image.open(r"C:\Users\milin\Desktop\Face Recognition System\college_images\dev.jpg")
         img_top=img_top.resize((1530,720),Image.Resampling.LANCZOS)
         self.photoimg_top=ImageTk.PhotoImage(img_top)
         
@@ -30,7 +30,7 @@ class Developer:
         main_frame.place(x=700,y=0,width=500,height=600)
         
         
-        img_top1=Image.open(r"C:\Users\MILIND TAJANE\Desktop\Face Recognition System\college_images\mkstyle.png")
+        img_top1=Image.open(r"C:\Users\milin\Desktop\Face Recognition System\college_images\mkstyle.png")
         img_top1=img_top1.resize((200,200),Image.Resampling.LANCZOS)
         self.photoimg_top1=ImageTk.PhotoImage(img_top1)
         
@@ -47,7 +47,7 @@ class Developer:
         
         
         #third image
-        img2=Image.open(r"C:\Users\MILIND TAJANE\Desktop\Face Recognition System\college_images\KPIs-and-Agile-software-development-metrics-for-teams-1.jpg")
+        img2=Image.open(r"C:\Users\milin\Desktop\Face Recognition System\college_images\KPIs-and-Agile-software-development-metrics-for-teams-1.jpg")
         img2=img2.resize((500,390),Image.Resampling.LANCZOS)
         self.photoimg2=ImageTk.PhotoImage(img2)
         

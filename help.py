@@ -18,7 +18,7 @@ class Help:
         title_lbl.place(x=0,y=0,width=1530,height=45)
         
         
-        img_top=Image.open(r"C:\Users\MILIND TAJANE\Desktop\Face Recognition System\college_images\1_5TRuG7tG0KrZJXKoFtHlSg.jpeg")
+        img_top=Image.open(r"C:\Users\milin\Desktop\Face Recognition System\college_images\1_5TRuG7tG0KrZJXKoFtHlSg.jpeg")
         img_top=img_top.resize((1530,720),Image.Resampling.LANCZOS)
         self.photoimg_top=ImageTk.PhotoImage(img_top)
         

@@ -111,7 +111,7 @@ class Face_Recognition_System:
         b1_1.place(x=800,y=300,width=220,height=40)
         
         # #HELP DESK button
-        # img7=Image.open(r"C:\Users\MILIND TAJANE\Desktop\Face Recognition System\college_images\help.jpg")
+        # img7=Image.open(r"C:\Users\milin\Desktop\Face Recognition System\college_images\help.jpg")
         # img7=img7.resize((220,220),Image.Resampling.LANCZOS)
         # self.photoimg7=ImageTk.PhotoImage(img7)
         

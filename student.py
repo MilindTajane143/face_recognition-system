@@ -33,7 +33,7 @@ class Student:
         self.var_teacher=StringVar()
         
         #first image
-        img=Image.open(r"C:\Users\MILIND TAJANE\Desktop\Face Recognition System\college_images\face-recognition.png")
+        img=Image.open(r"C:\Users\milin\Desktop\Face Recognition System\college_images\face-recognition.png")
         img=img.resize((500,130),Image.Resampling.LANCZOS)
         self.photoimg=ImageTk.PhotoImage(img)
         
@@ -41,7 +41,7 @@ class Student:
         f_lbl.place(x=0,y=0,width=500,height=130)
         
         #second image
-        img1=Image.open(r"C:\Users\MILIND TAJANE\Desktop\Face Recognition System\college_images\university.jpg")
+        img1=Image.open(r"C:\Users\milin\Desktop\Face Recognition System\college_images\university.jpg")
         img1=img1.resize((500,130),Image.Resampling.LANCZOS)
         self.photoimg1=ImageTk.PhotoImage(img1)
         
@@ -49,7 +49,7 @@ class Student:
         f_lbl.place(x=500,y=0,width=500,height=130)
         
         #third image
-        img2=Image.open(r"C:\Users\MILIND TAJANE\Desktop\Face Recognition System\college_images\clg.jpg")
+        img2=Image.open(r"C:\Users\milin\Desktop\Face Recognition System\college_images\clg.jpg")
         img2=img2.resize((500,130),Image.Resampling.LANCZOS)
         self.photoimg2=ImageTk.PhotoImage(img2)
         
@@ -57,7 +57,7 @@ class Student:
         f_lbl.place(x=1000,y=0,width=500,height=130)
         
          #bg image
-        img3=Image.open(r"C:\Users\MILIND TAJANE\Desktop\Face Recognition System\college_images\hackers2.jpg")
+        img3=Image.open(r"C:\Users\milin\Desktop\Face Recognition System\college_images\hackers2.jpg")
         img3=img3.resize((1530,710),Image.Resampling.LANCZOS)
         self.photoimg3=ImageTk.PhotoImage(img3)
         
@@ -95,7 +95,7 @@ class Student:
         
         
         #student column image
-        img_left=Image.open(r"C:\Users\MILIND TAJANE\Desktop\Face Recognition System\college_images\AdobeStock_303989091.jpeg")
+        img_left=Image.open(r"C:\Users\milin\Desktop\Face Recognition System\college_images\AdobeStock_303989091.jpeg")
         img_left=img_left.resize((720,130),Image.Resampling.LANCZOS)
         self.photoimg_left=ImageTk.PhotoImage(img_left)
         
@@ -276,7 +276,7 @@ class Student:
         RIGHT_frame.place(x=750,y=10,width=720,height=580)
         
         
-        img_right=Image.open(r"C:\Users\MILIND TAJANE\Desktop\Face Recognition System\college_images\student.jpg")
+        img_right=Image.open(r"C:\Users\milin\Desktop\Face Recognition System\college_images\student.jpg")
         img_right=img_right.resize((720,130),Image.Resampling.LANCZOS)
         self.photoimg_right=ImageTk.PhotoImage(img_right)
         

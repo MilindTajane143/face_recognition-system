@@ -23,13 +23,13 @@ class Register:
         
         
         #right image
-        self.bg=ImageTk.PhotoImage(file=r"C:\Users\MILIND TAJANE\Desktop\Face Recognition System\college_images\Screenshot_20221219_132215.png")
+        self.bg=ImageTk.PhotoImage(file=r"C:\Users\milin\Desktop\Face Recognition System\college_images\Screenshot_20221219_132215.png")
         bg_lbl=Label(self.root,image=self.bg)
         bg_lbl.place(x=0,y=0,relwidth=1,relheight=1)
         
         
         #left image
-        self.bg1=ImageTk.PhotoImage(file=r"C:\Users\MILIND TAJANE\Desktop\Face Recognition System\college_images\facerecog.png")
+        self.bg1=ImageTk.PhotoImage(file=r"C:\Users\milin\Desktop\Face Recognition System\college_images\facerecog.png")
         left_lbl=Label(self.root,image=self.bg1)
         left_lbl.place(x=50,y=100,width=470,height=550)
         
@@ -108,7 +108,7 @@ class Register:
         checkbtn.place(x=50,y=380)
         
         #buttons
-        img=Image.open(r"C:\Users\MILIND TAJANE\Desktop\Face Recognition System\college_images\register-now-button1-removebg-preview.png")
+        img=Image.open(r"C:\Users\milin\Desktop\Face Recognition System\college_images\register-now-button1-removebg-preview.png")
         img=img.resize((200,45),Image.Resampling.LANCZOS)
         self.photoimage=ImageTk.PhotoImage(img)
         b1=Button(frame,image=self.photoimage,command=self.register_data,borderwidth=4,cursor="hand2")
@@ -116,7 +116,7 @@ class Register:
         
         
         #buttons
-        img1=Image.open(r"C:\Users\MILIND TAJANE\Desktop\Face Recognition System\college_images\loginpng.png")
+        img1=Image.open(r"C:\Users\milin\Desktop\Face Recognition System\college_images\loginpng.png")
         img1=img1.resize((200,45),Image.Resampling.LANCZOS)
         self.photoimage1=ImageTk.PhotoImage(img1)
         b1=Button(frame,image=self.photoimage1,borderwidth=4,cursor="hand2")

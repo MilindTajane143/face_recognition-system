@@ -28,7 +28,7 @@ class Attendance:
         
         
         #first image
-        img=Image.open(r"C:\Users\MILIND TAJANE\Desktop\Face Recognition System\college_images\smart-attendance.jpg")
+        img=Image.open(r"C:\Users\milin\Desktop\Face Recognition System\college_images\smart-attendance.jpg")
         img=img.resize((800,200),Image.Resampling.LANCZOS)
         self.photoimg=ImageTk.PhotoImage(img)
         
@@ -36,7 +36,7 @@ class Attendance:
         f_lbl.place(x=0,y=0,width=800,height=200)
         
         #second image
-        img1=Image.open(r"C:\Users\MILIND TAJANE\Desktop\Face Recognition System\college_images\iStock-182059956_18390_t12.jpg")
+        img1=Image.open(r"C:\Users\milin\Desktop\Face Recognition System\college_images\iStock-182059956_18390_t12.jpg")
         img1=img1.resize((800,200),Image.Resampling.LANCZOS)
         self.photoimg1=ImageTk.PhotoImage(img1)
         
@@ -48,7 +48,7 @@ class Attendance:
         
         
         #bg image
-        img3=Image.open(r"C:\Users\MILIND TAJANE\Desktop\Face Recognition System\college_images\un.jpg")
+        img3=Image.open(r"C:\Users\milin\Desktop\Face Recognition System\college_images\un.jpg")
         img3=img3.resize((1530,710),Image.Resampling.LANCZOS)
         self.photoimg3=ImageTk.PhotoImage(img3)
         
@@ -65,7 +65,7 @@ class Attendance:
         LEFT_frame=LabelFrame(main_frame,bd=2,bg="white",relief=RIDGE,text="Student Information",font=("times new roman",12,"bold"),fg="red")
         LEFT_frame.place(x=10,y=10,width=730,height=580)
         
-        img_left=Image.open(r"C:\Users\MILIND TAJANE\Desktop\Face Recognition System\college_images\AdobeStock_303989091.jpeg")
+        img_left=Image.open(r"C:\Users\milin\Desktop\Face Recognition System\college_images\AdobeStock_303989091.jpeg")
         img_left=img_left.resize((720,130),Image.Resampling.LANCZOS)
         self.photoimg_left=ImageTk.PhotoImage(img_left)
         
@@ -162,7 +162,7 @@ class Attendance:
         table_frame=Frame(RIGHT_frame,bd=2,relief=RIDGE,bg="white")
         table_frame.place(x=5,y=5,width=700,height=455)
         
-        img_right=Image.open(r"C:\Users\MILIND TAJANE\Desktop\Face Recognition System\college_images\student.jpg")
+        img_right=Image.open(r"C:\Users\milin\Desktop\Face Recognition System\college_images\student.jpg")
         img_right=img_right.resize((720,130),Image.Resampling.LANCZOS)
         self.photoimg_right=ImageTk.PhotoImage(img_right)
         

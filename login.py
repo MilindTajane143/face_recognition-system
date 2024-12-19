@@ -31,7 +31,7 @@ class Login_Window:
         
         
         #bg image
-        img9=Image.open(r"C:\Users\MILIND TAJANE\Desktop\Face Recognition System\college_images\2-AI-invades-automobile-industry-in-2019.jpeg")
+        img9=Image.open(r"C:\Users\milin\Desktop\Face Recognition System\college_images\2-AI-invades-automobile-industry-in-2019.jpeg")
         img9=img9.resize((1530,715),Image.Resampling.LANCZOS)
         self.photoimg9=ImageTk.PhotoImage(img9)
         
@@ -49,7 +49,7 @@ class Login_Window:
         
         
         #first image
-        img=Image.open(r"C:\Users\MILIND TAJANE\Desktop\Face Recognition System\college_images\facial-recognition_0.jpg")
+        img=Image.open(r"C:\Users\milin\Desktop\Face Recognition System\college_images\facial-recognition_0.jpg")
         img=img.resize((500,130),Image.Resampling.LANCZOS)
         self.photoimg=ImageTk.PhotoImage(img)
         
@@ -57,7 +57,7 @@ class Login_Window:
         f_lbl.place(x=0,y=0,width=400,height=130)
         
         #second image
-        img1=Image.open(r"C:\Users\MILIND TAJANE\Desktop\Face Recognition System\college_images\facialrecognition.png")
+        img1=Image.open(r"C:\Users\milin\Desktop\Face Recognition System\college_images\facialrecognition.png")
         img1=img1.resize((500,130),Image.Resampling.LANCZOS)
         self.photoimg1=ImageTk.PhotoImage(img1)
         
@@ -65,7 +65,7 @@ class Login_Window:
         f_lbl.place(x=400,y=0,width=500,height=130)
         
         #third image
-        img8=Image.open(r"C:\Users\MILIND TAJANE\Desktop\Face Recognition System\college_images\smart-attendance.jpg")
+        img8=Image.open(r"C:\Users\milin\Desktop\Face Recognition System\college_images\smart-attendance.jpg")
         img8=img8.resize((500,130),Image.Resampling.LANCZOS)
         self.photoimg8=ImageTk.PhotoImage(img8)
         
@@ -78,7 +78,7 @@ class Login_Window:
         # ℳÎ£Î₦Ð ₮₳ʝ₳₦Ę
         
         #center image
-        img2=Image.open(r"C:\Users\MILIND TAJANE\Desktop\Face Recognition System\college_images\LoginIconAppl.png")
+        img2=Image.open(r"C:\Users\milin\Desktop\Face Recognition System\college_images\LoginIconAppl.png")
         img2=img2.resize((100,100),Image.Resampling.LANCZOS)
         self.photoimg2=ImageTk.PhotoImage(img2)
         lblimg2=Label(image=self.photoimg2,bg="black",borderwidth=0)
@@ -103,13 +103,13 @@ class Login_Window:
         
         
         #icon images
-        img3=Image.open(r"C:\Users\MILIND TAJANE\Desktop\Face Recognition System\college_images\LoginIconAppl.png")
+        img3=Image.open(r"C:\Users\milin\Desktop\Face Recognition System\college_images\LoginIconAppl.png")
         img3=img3.resize((25,25),Image.Resampling.LANCZOS)
         self.photoimg3=ImageTk.PhotoImage(img3)
         lblimg3=Label(image=self.photoimg3,bg="black",borderwidth=0)
         lblimg3.place(x=650,y=323,width=25,height=25)
         
-        img4=Image.open(r"C:\Users\MILIND TAJANE\Desktop\Face Recognition System\college_images\lock-512.png")
+        img4=Image.open(r"C:\Users\milin\Desktop\Face Recognition System\college_images\lock-512.png")
         img4=img4.resize((25,25),Image.Resampling.LANCZOS)
         self.photoimg4=ImageTk.PhotoImage(img4)
         lblimg4=Label(image=self.photoimg4,bg="black",borderwidth=0)
@@ -258,13 +258,13 @@ class Register:
         
         
         #right image
-        self.bg=ImageTk.PhotoImage(file=r"C:\Users\MILIND TAJANE\Desktop\Face Recognition System\college_images\Screenshot_20221219_132215.png")
+        self.bg=ImageTk.PhotoImage(file=r"C:\Users\milin\Desktop\Face Recognition System\college_images\Screenshot_20221219_132215.png")
         bg_lbl=Label(self.root,image=self.bg)
         bg_lbl.place(x=0,y=0,relwidth=1,relheight=1)
         
         
         #left image
-        self.bg1=ImageTk.PhotoImage(file=r"C:\Users\MILIND TAJANE\Desktop\Face Recognition System\college_images\facerecog.png")
+        self.bg1=ImageTk.PhotoImage(file=r"C:\Users\milin\Desktop\Face Recognition System\college_images\facerecog.png")
         left_lbl=Label(self.root,image=self.bg1)
         left_lbl.place(x=50,y=100,width=470,height=550)
         
@@ -343,7 +343,7 @@ class Register:
         checkbtn.place(x=50,y=380)
         
         #buttons
-        img=Image.open(r"C:\Users\MILIND TAJANE\Desktop\Face Recognition System\college_images\register-now-button1.jpg")
+        img=Image.open(r"C:\Users\milin\Desktop\Face Recognition System\college_images\register-now-button1.jpg")
         img=img.resize((200,55),Image.Resampling.LANCZOS)
         self.photoimage=ImageTk.PhotoImage(img)
         b1=Button(frame,image=self.photoimage,command=self.register_data,borderwidth=0,cursor="hand2")
@@ -351,7 +351,7 @@ class Register:
         
         
         #buttons
-        img1=Image.open(r"C:\Users\MILIND TAJANE\Desktop\Face Recognition System\college_images\loginpng.png")
+        img1=Image.open(r"C:\Users\milin\Desktop\Face Recognition System\college_images\loginpng.png")
         img1=img1.resize((200,45),Image.Resampling.LANCZOS)
         self.photoimage1=ImageTk.PhotoImage(img1)
         b1=Button(frame,image=self.photoimage1,command=self.return_login,borderwidth=0,cursor="hand2")
@@ -403,7 +403,7 @@ class Face_Recognition_System:
         self.root.title("Face Recognition System")
         
         #first image
-        img=Image.open(r"C:\Users\MILIND TAJANE\Desktop\Face Recognition System\college_images\BestFacialRecognition.jpg")
+        img=Image.open(r"C:\Users\milin\Desktop\Face Recognition System\college_images\BestFacialRecognition.jpg")
         img=img.resize((500,130),Image.Resampling.LANCZOS)
         self.photoimg=ImageTk.PhotoImage(img)
         
@@ -411,7 +411,7 @@ class Face_Recognition_System:
         f_lbl.place(x=0,y=0,width=400,height=130)
         
         #second image
-        img1=Image.open(r"C:\Users\MILIND TAJANE\Desktop\Face Recognition System\college_images\facialrecognition.png")
+        img1=Image.open(r"C:\Users\milin\Desktop\Face Recognition System\college_images\facialrecognition.png")
         img1=img1.resize((500,130),Image.Resampling.LANCZOS)
         self.photoimg1=ImageTk.PhotoImage(img1)
         
@@ -419,7 +419,7 @@ class Face_Recognition_System:
         f_lbl.place(x=400,y=0,width=500,height=130)
         
         #third image
-        img2=Image.open(r"C:\Users\MILIND TAJANE\Desktop\Face Recognition System\college_images\images.jpg")
+        img2=Image.open(r"C:\Users\milin\Desktop\Face Recognition System\college_images\images.jpg")
         img2=img2.resize((500,130),Image.Resampling.LANCZOS)
         self.photoimg2=ImageTk.PhotoImage(img2)
         
@@ -427,7 +427,7 @@ class Face_Recognition_System:
         f_lbl.place(x=900,y=0,width=500,height=130)
         
         #bg image
-        img3=Image.open(r"C:\Users\MILIND TAJANE\Desktop\Face Recognition System\college_images\wp2551980.jpg")
+        img3=Image.open(r"C:\Users\milin\Desktop\Face Recognition System\college_images\wp2551980.jpg")
         img3=img3.resize((1530,710),Image.Resampling.LANCZOS)
         self.photoimg3=ImageTk.PhotoImage(img3)
         
@@ -452,7 +452,7 @@ class Face_Recognition_System:
         
         
         #student button
-        img4=Image.open(r"C:\Users\MILIND TAJANE\Desktop\Face Recognition System\college_images\student.jpg")
+        img4=Image.open(r"C:\Users\milin\Desktop\Face Recognition System\college_images\student.jpg")
         img4=img4.resize((220,220),Image.Resampling.LANCZOS)
         self.photoimg4=ImageTk.PhotoImage(img4)
         
@@ -463,7 +463,7 @@ class Face_Recognition_System:
         b1_1.place(x=80,y=260,width=220,height=40)
         
         #detect face button
-        img5=Image.open(r"C:\Users\MILIND TAJANE\Desktop\Face Recognition System\college_images\face_detector1.jpg")
+        img5=Image.open(r"C:\Users\milin\Desktop\Face Recognition System\college_images\face_detector1.jpg")
         img5=img5.resize((220,220),Image.Resampling.LANCZOS)
         self.photoimg5=ImageTk.PhotoImage(img5)
         
@@ -474,7 +474,7 @@ class Face_Recognition_System:
         b1_1.place(x=380,y=260,width=220,height=40)
         
         #ATTENDANCE face button
-        img6=Image.open(r"C:\Users\MILIND TAJANE\Desktop\Face Recognition System\college_images\attendance.jpg")
+        img6=Image.open(r"C:\Users\milin\Desktop\Face Recognition System\college_images\attendance.jpg")
         img6=img6.resize((220,220),Image.Resampling.LANCZOS)
         self.photoimg6=ImageTk.PhotoImage(img6)
         
@@ -485,7 +485,7 @@ class Face_Recognition_System:
         b1_1.place(x=680,y=260,width=220,height=40)
         
         # #HELP DESK button
-        # img7=Image.open(r"C:\Users\MILIND TAJANE\Desktop\Face Recognition System\college_images\help.jpg")
+        # img7=Image.open(r"C:\Users\milin\Desktop\Face Recognition System\college_images\help.jpg")
         # img7=img7.resize((220,220),Image.Resampling.LANCZOS)
         # self.photoimg7=ImageTk.PhotoImage(img7)
         
@@ -496,7 +496,7 @@ class Face_Recognition_System:
         # b1_1.place(x=980,y=260,width=220,height=40)
         
         #HELP DESK button
-        img7=Image.open(r"C:\Users\MILIND TAJANE\Desktop\Face Recognition System\college_images\chat.jpg")
+        img7=Image.open(r"C:\Users\milin\Desktop\Face Recognition System\college_images\chat.jpg")
         img7=img7.resize((220,220),Image.Resampling.LANCZOS)
         self.photoimg7=ImageTk.PhotoImage(img7)
         
@@ -508,7 +508,7 @@ class Face_Recognition_System:
         
         
         #Train  button
-        img8=Image.open(r"C:\Users\MILIND TAJANE\Desktop\Face Recognition System\college_images\Train.jpg")
+        img8=Image.open(r"C:\Users\milin\Desktop\Face Recognition System\college_images\Train.jpg")
         img8=img8.resize((220,220),Image.Resampling.LANCZOS)
         self.photoimg8=ImageTk.PhotoImage(img8)
         
@@ -519,7 +519,7 @@ class Face_Recognition_System:
         b1_1.place(x=80,y=510,width=220,height=40)
         
          #PHOTOS  button
-        img9=Image.open(r"C:\Users\MILIND TAJANE\Desktop\Face Recognition System\college_images\opencv_face_reco_more_data.jpg")
+        img9=Image.open(r"C:\Users\milin\Desktop\Face Recognition System\college_images\opencv_face_reco_more_data.jpg")
         img9=img9.resize((220,220),Image.Resampling.LANCZOS)
         self.photoimg9=ImageTk.PhotoImage(img9)
         
@@ -530,7 +530,7 @@ class Face_Recognition_System:
         b1_1.place(x=380,y=510,width=220,height=40)
         
         #DEVELOPER  button
-        img10=Image.open(r"C:\Users\MILIND TAJANE\Desktop\Face Recognition System\college_images\Team-Management-Software-Development.jpg")
+        img10=Image.open(r"C:\Users\milin\Desktop\Face Recognition System\college_images\Team-Management-Software-Development.jpg")
         img10=img10.resize((220,220),Image.Resampling.LANCZOS)
         self.photoimg10=ImageTk.PhotoImage(img10)
         
@@ -541,7 +541,7 @@ class Face_Recognition_System:
         b1_1.place(x=680,y=510,width=220,height=40)
         
         #EXIT  button
-        img11=Image.open(r"C:\Users\MILIND TAJANE\Desktop\Face Recognition System\college_images\exit.jpg")
+        img11=Image.open(r"C:\Users\milin\Desktop\Face Recognition System\college_images\exit.jpg")
         img11=img11.resize((220,220),Image.Resampling.LANCZOS)
         self.photoimg11=ImageTk.PhotoImage(img11)
         

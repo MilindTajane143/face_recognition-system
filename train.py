@@ -19,7 +19,7 @@ class Train:
         title_lbl.place(x=0,y=0,width=1530,height=45)
         
         
-        img_top=Image.open(r"C:\Users\MILIND TAJANE\Desktop\Face Recognition System\college_images\facialrecognition.png")
+        img_top=Image.open(r"C:\Users\milin\Desktop\Face Recognition System\college_images\facialrecognition.png")
         img_top=img_top.resize((1530,325),Image.Resampling.LANCZOS)
         self.photoimg_top=ImageTk.PhotoImage(img_top)
         
@@ -31,7 +31,7 @@ class Train:
         b1_1.place(x=0,y=375,width=1530,height=63)
         
         
-        img_bottom=Image.open(r"C:\Users\MILIND TAJANE\Desktop\Face Recognition System\college_images\opencv_face_reco_more_data.jpg")
+        img_bottom=Image.open(r"C:\Users\milin\Desktop\Face Recognition System\college_images\opencv_face_reco_more_data.jpg")
         img_bottom=img_bottom.resize((1530,325),Image.Resampling.LANCZOS)
         self.photoimg_bottom=ImageTk.PhotoImage(img_bottom)
         
